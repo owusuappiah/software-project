@@ -104,6 +104,11 @@ const SmartComponent = () => {
             profileImage: require('../assets/images/moses.jpg')
         },
         {
+            name: "Chindondi Ossiah Kundai",
+            id: "1711531219",
+            profileImage: require('../assets/images/kun.png')
+        },
+        {
             name: "Brook Mabrejs Agonafir",
             id: "1711531108",
             profileImage: ""
@@ -113,11 +118,7 @@ const SmartComponent = () => {
             id: "1711531213",
             profileImage: ""
         },
-        {
-            name: "Chindondi Ossiah Kundai",
-            id: "1711531219",
-            profileImage: ""
-        },
+
     ])
     return (
         <ScrollView style={styles.smartComponent} horizontal={true} showsHorizontalScrollIndicator={false}>
