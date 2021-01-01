@@ -1,7 +1,12 @@
 {
   "expo": {
-    "name": "AwesomeProject",
-    "slug": "AwesomeProject",
+    "name": "ejukate-mobile",
+    "slug": "ejukate-mobile",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,16 +22,10 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Ejukate uses the camera to scan QR codes on the Ejukate application."
       }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
     }
   }
 }
